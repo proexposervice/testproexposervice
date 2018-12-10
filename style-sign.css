@@ -1,0 +1,202 @@
+:root {
+  --light_col: #2C2D44;
+  --letter_border:#2C2D44;
+}
+
+#sign{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sign_text{
+  color: #000;
+  border: 0px;
+  padding: 5px 10px 5px 15px;
+  font-size: 30px;
+  white-space: nowrap;
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.sign_letter{
+  margin-left: -5px;
+  font-weight: 60;
+}
+
+.sl1{animation: flicker_v1 5s linear infinite;}
+.sl2{animation: flicker_v3 7s linear infinite;}
+.sl3{animation: flicker_v2 4s linear infinite;}
+.sl4{animation: flicker_v4 8s linear infinite;}
+.sl5{animation: flicker_v4 4s linear infinite;}
+.sl6{animation: flicker_v4 3s linear infinite;}
+.sl7{animation: flicker_v4 9s linear infinite;}
+.sl8{animation: flicker_v4 10s linear infinite;}
+.sl9{animation: flicker_v4 4s linear infinite;}
+.s20{animation: flicker_v4 7s linear infinite;}
+.s21{animation: flicker_v4 11s linear infinite;}
+.s22{animation: flicker_v4 5s linear infinite;}
+.s23{animation: flicker_v4 6s linear infinite;}
+.s24{animation: flicker_v4 7s linear infinite;}
+
+@keyframes flicker_v1{
+  0%  {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  30% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  31% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  36% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  37% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  41% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  42% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  45% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  46% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  100%{
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+}
+
+@keyframes flicker_v2{
+  0%  {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  30% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  31% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  32% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  33% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  41% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  42% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  43% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  44% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  50% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  51% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  54% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  55% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  100%{
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+}
+
+@keyframes flicker_v3{
+  0%  {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  60% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  61% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  66% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  67% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  100%{
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+}
+
+@keyframes flicker_v4{
+  0%  {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  35% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  36% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  41% {
+    color: #2C2D44;
+    text-shadow: 0px 0px 0px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  42% {
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+  100%{
+    color: var(--light_col);
+    text-shadow: 0px 0px 20px var(--light_col), -1px 0 var(--letter_border), 0 1px var(--letter_border), 1px 0 var(--letter_border), 0 -1px var(--letter_border);
+  }
+}
+
+@keyframes pulse{
+  0%  {box-shadow: 0px 0px 10px var(--light_col), inset 0px 0px 5px var(--light_col);}
+  50% {box-shadow: 0px 0px 30px var(--light_col), inset 0px 0px 20px var(--light_col);}
+  100%{box-shadow: 0px 0px 10px var(--light_col), inset 0px 0px 5px var(--light_col);}
+}
